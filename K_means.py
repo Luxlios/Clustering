@@ -73,7 +73,7 @@ def show(data, center, _class, k, name):
 
 if __name__ == '__main__':
     # Iris数据集聚类
-    data = pd.read_csv('iris.data', header=None)  # 有header会把第一行数据当列名
+    data = pd.read_csv('.\data\iris.data', header=None)  # 有header会把第一行数据当列名
     data = np.array(data)
     x = data[:, [0, 1, 2, 3]]  # 数据
     y = data[:, 4]  # 标签
@@ -82,7 +82,7 @@ if __name__ == '__main__':
     show(x, center1, class1, 3, 'K_means')
 
     # 图像聚类分割
-    img = cv2.imread('D:\hh.png')
+    img = cv2.imread('.\data\hh.png')
     _img = img.copy()
     _img = _img[:, :, ::-1]
     plt.figure()
