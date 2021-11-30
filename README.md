@@ -2,7 +2,7 @@
 分别用K均值K_means和模糊C均值FCM算法对Iris鸢尾花数据集聚类以及图像聚类分割
 
 Iris鸢尾花数据集：http://archive.ics.uci.edu/ml/datasets/Iris
-### Contents
+### Content
 - [算法流程图](#算法流程图)
 - [结果展示](#结果展示)
   - [K_means](#K_mean算法在Iris数据集聚类和图片聚类分割结果)
