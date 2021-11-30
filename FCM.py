@@ -72,7 +72,7 @@ def show(data, center, _class, k, name):
 
 if __name__ == '__main__':
     # IRIS数据集读取
-    data = pd.read_csv('E:\桌面\PR模式识别\exp2\iris.data', header=None)  # 有header会把第一行数据当列名
+    data = pd.read_csv('.\data\iris.data', header=None)  # 有header会把第一行数据当列名
     data = np.array(data)
     x = data[:, [0, 1, 2, 3]]  # 数据
     y = data[:, 4]  # 标签
