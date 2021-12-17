@@ -3,6 +3,12 @@
 
 数据集：[Iris](http://archive.ics.uci.edu/ml/datasets/Iris) 
 
+### Requirement
+`pandas`  
+`numpy`  
+`cv2`  
+`matplotlib`
+
 ### Content
 - [算法流程图](#算法流程图)
 - [结果展示](#结果展示)
