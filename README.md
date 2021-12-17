@@ -17,7 +17,7 @@
 
 ### 算法流程图
 <div align=center>
-<img src="https://github.com/Luxlios/Figure/blob/main/Clustering/flow_chart.png" height="600">
+<img src="https://github.com/Luxlios/Figure/blob/main/Clustering/flow_chart.png" height="700">
 </div>
 左边为K均值K_means算法流程图，右边为模糊C均值FCM算法流程图
 
